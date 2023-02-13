@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-02-13T10:50:57.438599700Z</date>
+  <millis>1676285457438</millis>
+  <nanos>599700</nanos>
+  <sequence>0</sequence>
+  <logger>sk.train</logger>
+  <level>FINE</level>
+  <class>sk.train.SampleJUL</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>App start</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.465527100Z</date>
+  <millis>1676285457465</millis>
+  <nanos>527100</nanos>
+  <sequence>1</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 0</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.467523300Z</date>
+  <millis>1676285457467</millis>
+  <nanos>523300</nanos>
+  <sequence>2</sequence>
+  <logger>sk.train</logger>
+  <level>WARNING</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>Exception with value 0</message>
+  <exception>
+    <message>java.lang.ArithmeticException: n &gt; 0 is required</message>
+    <frame>
+      <class>sk.train.Fakultaet</class>
+      <method>fak</method>
+      <line>12</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>callWithLogging</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>main</method>
+      <line>16</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.538333Z</date>
+  <millis>1676285457538</millis>
+  <nanos>333000</nanos>
+  <sequence>3</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 1</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.538333Z</date>
+  <millis>1676285457538</millis>
+  <nanos>333000</nanos>
+  <sequence>4</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 2</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.538333Z</date>
+  <millis>1676285457538</millis>
+  <nanos>333000</nanos>
+  <sequence>5</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 3</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.539329800Z</date>
+  <millis>1676285457539</millis>
+  <nanos>329800</nanos>
+  <sequence>6</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 4</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.539329800Z</date>
+  <millis>1676285457539</millis>
+  <nanos>329800</nanos>
+  <sequence>7</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 5</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.539329800Z</date>
+  <millis>1676285457539</millis>
+  <nanos>329800</nanos>
+  <sequence>8</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 6</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.539329800Z</date>
+  <millis>1676285457539</millis>
+  <nanos>329800</nanos>
+  <sequence>9</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 7</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.540327300Z</date>
+  <millis>1676285457540</millis>
+  <nanos>327300</nanos>
+  <sequence>10</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 8</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.540327300Z</date>
+  <millis>1676285457540</millis>
+  <nanos>327300</nanos>
+  <sequence>11</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 9</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.540327300Z</date>
+  <millis>1676285457540</millis>
+  <nanos>327300</nanos>
+  <sequence>12</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 10</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.541324400Z</date>
+  <millis>1676285457541</millis>
+  <nanos>324400</nanos>
+  <sequence>13</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 11</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.541324400Z</date>
+  <millis>1676285457541</millis>
+  <nanos>324400</nanos>
+  <sequence>14</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 12</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.541324400Z</date>
+  <millis>1676285457541</millis>
+  <nanos>324400</nanos>
+  <sequence>15</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 13</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.541324400Z</date>
+  <millis>1676285457541</millis>
+  <nanos>324400</nanos>
+  <sequence>16</sequence>
+  <logger>sk.train</logger>
+  <level>WARNING</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>Exception with value 13</message>
+  <exception>
+    <message>java.lang.ArithmeticException: integer overflow</message>
+    <frame>
+      <class>java.lang.Math</class>
+      <method>multiplyExact</method>
+      <line>906</line>
+    </frame>
+    <frame>
+      <class>sk.train.Fakultaet</class>
+      <method>fak</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>callWithLogging</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>main</method>
+      <line>16</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.542323700Z</date>
+  <millis>1676285457542</millis>
+  <nanos>323700</nanos>
+  <sequence>17</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 14</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.542323700Z</date>
+  <millis>1676285457542</millis>
+  <nanos>323700</nanos>
+  <sequence>18</sequence>
+  <logger>sk.train</logger>
+  <level>WARNING</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>Exception with value 14</message>
+  <exception>
+    <message>java.lang.ArithmeticException: integer overflow</message>
+    <frame>
+      <class>java.lang.Math</class>
+      <method>multiplyExact</method>
+      <line>906</line>
+    </frame>
+    <frame>
+      <class>sk.train.Fakultaet</class>
+      <method>fak</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>callWithLogging</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>main</method>
+      <line>16</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.543323500Z</date>
+  <millis>1676285457543</millis>
+  <nanos>323500</nanos>
+  <sequence>19</sequence>
+  <logger>sk.train</logger>
+  <level>FINER</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>fak for value = 15</message>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.543323500Z</date>
+  <millis>1676285457543</millis>
+  <nanos>323500</nanos>
+  <sequence>20</sequence>
+  <logger>sk.train</logger>
+  <level>WARNING</level>
+  <class>sk.train.SampleJUL</class>
+  <method>callWithLogging</method>
+  <thread>1</thread>
+  <message>Exception with value 15</message>
+  <exception>
+    <message>java.lang.ArithmeticException: integer overflow</message>
+    <frame>
+      <class>java.lang.Math</class>
+      <method>multiplyExact</method>
+      <line>906</line>
+    </frame>
+    <frame>
+      <class>sk.train.Fakultaet</class>
+      <method>fak</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>callWithLogging</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>sk.train.SampleJUL</class>
+      <method>main</method>
+      <line>16</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-02-13T10:50:57.544316200Z</date>
+  <millis>1676285457544</millis>
+  <nanos>316200</nanos>
+  <sequence>21</sequence>
+  <logger>sk.train</logger>
+  <level>FINE</level>
+  <class>sk.train.SampleJUL</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>App done</message>
+</record>
+</log>

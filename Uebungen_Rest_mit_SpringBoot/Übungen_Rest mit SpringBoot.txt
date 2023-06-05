@@ -1,0 +1,17 @@
+Uebungen:
+
+1) Die Lösung aus den Aufgaben JPA mit Spring Boot "sk.train.x11_07_JPA_Spring_SpringBoot_Solution" 
+soll jetzt mit einem Rest-Frontend versehen werden.
+
+2) Zugriff aus Rest-Controller auf HTTPServletRequest zur Auswertung des Requests und Rückgabe der Infos.
+
+3) Erweiterung von 1) um ExceptionHandling mittels @ControllerAdvice
+
+4) Erweiterung von 3) um XML-Format
+
+5) Erweiterung von 4) um HATEOAS-Support
+
+
+
+
+

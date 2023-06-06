@@ -11,6 +11,17 @@ soll jetzt mit einem Rest-Frontend versehen werden.
 
 5) Erweiterung von 4) um HATEOAS-Support
 
+6) Ergänzen um Spring Data Rest: wir brauchen keine Controller mehr
+
+7) Ergänzen von Lösung 3 oder 4 um Swagger
+
+8) Rest-Client via RestTemplate (auf der Serverseite z.B. Lösung aus Schritt 1):
+  - 
+
+
+
+
+
 
 
 

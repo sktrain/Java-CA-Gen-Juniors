@@ -16,7 +16,13 @@ soll jetzt mit einem Rest-Frontend versehen werden.
 7) Ergänzen von Lösung 3 oder 4 um Swagger
 
 8) Rest-Client via RestTemplate (auf der Serverseite z.B. Lösung aus Schritt 1):
-  - 
+  - mal einzelnen Employee abfragen (Klassen müssen auch auf der Client-Seite vorhanden sein)
+  - mal alle Employees abfragen.
+  - was ist das für eine Collection und was der Inhaltstyp?
+  - gibt es da Probleme und kann man das korrigieren?
+ (siehe auch https://www.baeldung.com/jackson-collection-array)
+ 
+ 9) Testen der Controller-Klasse vie Slice-Test
 
 
 

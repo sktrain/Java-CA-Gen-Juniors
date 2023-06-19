@@ -1,0 +1,15 @@
+Uebungen:
+
+1) Nutzung von CXF mit Spring anhand Tutorial: https://www.baeldung.com/apache-cxf-with-spring
+	Erstmal nur die Server-Seite mit anschließenden Deployment gegen vorhandenen Standalone 
+	Tomcat. WSDL sollte generiert worden sein, Test kann via SOAP-UI erfolgen.
+
+
+2) Client zu 1) ebenfalls anhand Tutorial: https://www.baeldung.com/apache-cxf-with-spring
+
+
+3) Unsere Lösung aus den Aufgaben JPA und Rest mit Spring Boot, z.B. "sk.train.x12_02_JPA_Rest_Boot_Solution" 
+oder "sk.train.x12_04_JPA_Rest_Boot_Solution" soll jetzt zusätzlich mit einem SOAP-Frontend ausgestattet werden.
+
+
+4) Der Client hierzu sollte mit Hilfe der Generierung via "wsdl2java" erstellt werden.

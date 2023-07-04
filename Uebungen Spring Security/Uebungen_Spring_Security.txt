@@ -1,0 +1,13 @@
+Uebungen:
+
+1) Einbinden von Spring-Security in Form des simplen Defaults in ein vorhandenes Projekt:
+z.Bsp. "sk.train.x14_04_JPA_Rest_SOAP_Boot_Solution" aus den Lösungen zum SOAP-Abschnitt
+
+2) Explizite Konfiguration des Defaults (InMemory-Authentication) für 2 Accounts: User und Admin
+
+3) Anpassung der Login-Page auf Basis von Schritt 2
+
+4) Auf Basis von Schritt 1 (ohne Anpassung der Login-Page) umstellen auf Authentisierung mittels Datenbank
+
+5) Auf Basis von Schritt 4 unterschiedliche Autorisierung für User und Admin, z.B. nur Admin darf Soap nutzen
+

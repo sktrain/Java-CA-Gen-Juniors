@@ -8,6 +8,11 @@ z.Bsp. "sk.train.x14_04_JPA_Rest_SOAP_Boot_Solution" aus den Lösungen zum SOAP-
 3) Anpassung der Login-Page auf Basis von Schritt 2
 
 4) Auf Basis von Schritt 1 (ohne Anpassung der Login-Page) umstellen auf Authentisierung mittels Datenbank
+Folgendes Skript (auf Basis H2) muss vorab in der Datenbank ausgeführt werden:
+create table users(username varchar_ignorecase(50) not null primary key,password varchar_ignorecase(500) not null,enabled boolean not null);
+create table authorities (username varchar_ignorecase(50) not null,authority varchar_ignorecase(50) not null,constraint fk_authorities_users foreign key(username) references users(username));
+Optional:
+create unique index ix_auth_username on authorities (username,authority);
 
 5) Auf Basis von Schritt 4 unterschiedliche Autorisierung für User und Admin, z.B. nur Admin darf Soap nutzen
 
